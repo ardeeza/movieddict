@@ -1,12 +1,15 @@
-# React + Vite
+# Movieddict
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Movieddict- An online search tool that allows all movie buffs out there to browse through a list of publicly released Hollywood movies. Tired of constantly searching for that beloved movie? Rest assured - the "favourite button" feature allows you to view all "favourited" movies in a single space.
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Head over to the [TMDB](https://www.themoviedb.org/) page and create an account for an API key.
+2. Install all the dependencies listed in package.json in your React project.
+3. Substitute your API ID and Key in the following URL in api.js located in  > services folder
+   >
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+     const response = await fetch(`${BASE_URL}/movie/popular?api_key=${API_KEY}`);
+## Upcoming Features
+1. Users will be alllowed to create personal accounts which facilitates access of "Favourite movies" list on multiple devices.
+2. Addition of a "Genre" tab which will allow users to search for all relevant films grouped under a specific genre.
