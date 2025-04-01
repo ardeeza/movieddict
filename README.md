@@ -2,9 +2,14 @@
 
 Movieddict- An online search tool that allows all movie buffs out there to browse through a list of publicly released Hollywood movies. Tired of constantly searching for that beloved movie? Rest assured - the "favourite button" feature allows you to view all "favourited" movies in a single space.
 
-[image](https://github.com/user-attachments/assets/876f26f7-eb04-4069-a874-b281542019a0)
+<p align="center">
+<img src="./src/assets/Home.png"  align='center' />
+&nbsp;
+&nbsp;
+&nbsp;
+<img src="./src/assets/Favourites.png"  align='center' />
+</p>
 
-[image](https://github.com/user-attachments/assets/f1a8bcd4-adc9-43ca-b498-98a938ef651c)
 
 
 ## Getting Started!
